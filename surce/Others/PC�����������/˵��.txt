@@ -1,0 +1,24 @@
+                  PC端任务管理器源码 说明
+
+1.请使用Eclipse编译源代码。
+
+2.程序运行过程中需javacomm提供Java对串口的支持，请在首次运行前安装“支持软件”目录下的“javacomm20-win32.zip”。具体安装过程见本文后附“javacomm 安装说明”。
+
+3.“可执行文件”目录下的“Sword Light 任务管理器.jar”为编译后的可执行文件。
+
+
+
+
+
+
+               javacomm 安装说明
+
+1.安装“支持软件”目录下的“jdk6.exe”。
+
+2.将“javacomm20-win32.zip”解压缩得到omm.jar，javax.comm. properties和win32comm.dll。
+
+3.将文件comm.jar拷贝到%JAVA_HOME%\jre\lib\ext
+
+4.将文件javax.comm. properties拷贝到%JAVA_HOME%\jre\lib
+
+5.将文件win32comm.dll拷贝到%JAVA_HOME%\bin，注意%JAVA_HOME%是jdk的路径，而非jre。
